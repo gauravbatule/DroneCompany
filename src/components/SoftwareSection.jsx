@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function SoftwareSection() {
   return (
-    <section className="software" id="software">
+    <section className="software snap-section" id="software">
       {/* KARMAN GCS title on light bg */}
       <div className="software__header">
         <h2>KARMAN GCS</h2>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function SolutionsTiles() {
   return (
-    <section className="solutions" id="solutions">
+    <section className="solutions snap-section" id="solutions">
       <div className="solutions__grid">
         <Link to="/solution/mapping" className="solutions__tile">
           <img src="/images/doc4_page4_9.png" alt="Mapping" className="solutions__bg" />

@@ -24,7 +24,7 @@ function ProductCarousel() {
   const product = products[current]
 
   return (
-    <section className="carousel-section" id="products">
+    <section className="carousel-section snap-section" id="products">
       <h2 className="carousel-section__name">{product.name}</h2>
       <div className="carousel-section__stage">
         <button className="carousel-section__arrow carousel-section__arrow--left" onClick={prev} aria-label="Previous">

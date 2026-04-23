@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroSection() {
   return (
-    <section className="hero" id="hero">
+    <section className="hero snap-section" id="hero">
       {/* Full-bleed background image (replacing video since no video files available) */}
       <img
         src="/images/doc4_page2_3.png"

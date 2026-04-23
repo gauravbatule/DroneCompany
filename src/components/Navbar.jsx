@@ -53,6 +53,13 @@ function Navbar({ activeDropdown, setActiveDropdown }) {
 
       <div className={`side-drawer ${menuOpen ? 'side-drawer--open' : ''}`}>
         <div className="side-drawer__content">
+          <Link to="/product/tailsitters" onClick={() => setMenuOpen(false)}>Tailsitters UAV</Link>
+          <Link to="/product/kamikaze" onClick={() => setMenuOpen(false)}>Kamikaze UAV</Link>
+          <Link to="/product/fixed-wing" onClick={() => setMenuOpen(false)}>Fixed Wing UAV</Link>
+          <Link to="/product/cropter" onClick={() => setMenuOpen(false)}>Cropter</Link>
+          <Link to="/solution/mapping" onClick={() => setMenuOpen(false)}>Mapping</Link>
+          <Link to="/solution/security" onClick={() => setMenuOpen(false)}>Security</Link>
+          <Link to="/software" onClick={() => setMenuOpen(false)}>Karman GCS</Link>
           <Link to="/blog" onClick={() => setMenuOpen(false)}>Blog</Link>
           <Link to="/careers" onClick={() => setMenuOpen(false)}>Careers</Link>
           <Link to="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
